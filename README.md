@@ -1,6 +1,6 @@
 # Technical Interview Prep 
 
-This repository will hold all assignments and problems provided by CodePath TIP101/TIP102. 
+This repository will hold all assignments and problems provided by CodePath TIP101/TIP102, solved in both Python, C++ and C. 
 
 ## Unit Descriptions TIP101:
 * Unit 1: Variables, Functions, Conditionals, and Lists
