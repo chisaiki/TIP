@@ -2,7 +2,7 @@
 
 This repository will hold all assignments and problems provided by CodePath TIP101/TIP102. 
 
-## Unit Descriptions:
+## Unit Descriptions TIP101:
 * Unit 1: Variables, Functions, Conditionals, and Lists
 * Unit 2: Lists and Dictionaries
 * Unit 3: Efficient Algorithms for String Comparison, Pattern matching, and Transformation
@@ -15,3 +15,5 @@ This repository will hold all assignments and problems provided by CodePath TIP1
 * Unit 10: Appropriate Algorithmic Technique and Data Structures to Solve Problems
 * Unit 11:
 * Unit 12:
+
+## Unit Descriptions TIP102:
