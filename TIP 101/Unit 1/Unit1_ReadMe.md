@@ -3,7 +3,7 @@ Welcome to the first unit of this course. This unit you will meet your peers for
 
 By the end of this unit:
 
-* Familiar with the format and goals of the course
+[ ]Familiar with the format and goals of the course
 * Developing the skill of using UPI method to solving coding problems
 * Able to write, use, and modify variables, functions, and print statements
 * Able to use conditional logic (if statements)
