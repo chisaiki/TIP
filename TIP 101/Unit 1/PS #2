@@ -1,0 +1,28 @@
+# Plan:
+# iterate through list
+# make a frequency dictionary containing numbers as keys, and frequencies as values
+#return all the keys of the dictionary
+
+#Problem 2: Remove Duplicates
+
+#Write a function remove_duplicates() that takes in a sorted list of integers nums as a parameter and removes all duplicates in the list. The function returns the modified list.
+
+#def remove_duplicates(nums):
+#    pass
+
+
+def remove_duplicates(nums):
+    dict1 = {}
+    for num in nums: 
+        # solution 1
+        if dict1.get(num) is None:
+            dict1[num] = 1
+        else:
+            dict1[num] = dict1[num]+1
+        # solution 2
+        # dict1[num] = dict1.get(num,1) +1
+    return list(dict1.keys())    
+
+nums = remove_duplicates([1,1,1,2,3,4,4,5,6,6])
+print(nums)
+# example output: no_dups = [1,2,3,4,5,6]
