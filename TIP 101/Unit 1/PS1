@@ -1,0 +1,13 @@
+# Plan for function:
+# iterate thru list of strings
+# convert items in list to int
+# add them to a cumulative variable
+def sum_of_number_strings(nums):
+    sum = 0
+    for item in nums:
+        sum += int(item)
+    return sum
+
+nums = ["10", "20", "30"]
+sum = sum_of_number_strings(nums)
+print(sum)
