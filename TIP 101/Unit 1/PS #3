@@ -1,0 +1,33 @@
+# Plan:
+# split the string into a list
+# "a-bC-dE][f-ghIj"
+#  ^          ^ 
+#  0         len -1 
+#  left.     right
+
+
+def reverse_only_letters(s):
+    word = list(s)
+    left = 0
+    right = len(word)-1
+    while left<right:
+        if word[left].isalpha() and word[right].isalpha():
+            temp =""
+            temp = word[left]
+            word[left] = word[right]
+            word[right] = temp
+            left+=1
+            right-=1
+            
+        elif (word[left].isalpha() == False) and  word[right].isalpha():
+            left+=1
+        elif word[left].isalpha() and (word[right].isalpha() == False):
+            right-=1
+        else:
+            left+=1
+            right-=1
+    return "".join(word)    
+
+s = "a-bC-dEf-ghIj"
+reversed_s = reverse_only_letters(s)
+print(reversed_s)
